@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membrane Tinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Membrane Tinder</h1>
+        <h2>Create Your 3 Profiles</h2>
+        <form id="profileForm">
+            <input type="text" id="name1" placeholder="Name of Profile 1" required>
+            <textarea id="description1" placeholder="Profile Description 1" required></textarea>
+            <input type="text" id="name2" placeholder="Name of Profile 2" required>
+            <textarea id="description2" placeholder="Profile Description 2" required></textarea>
+            <input type="text" id="name3" placeholder="Name of Profile 3" required>
+            <textarea id="description3" placeholder="Profile Description 3" required></textarea>
+            <button type="submit">Submit Profiles</button>
+        </form>
+
+        <div id="profilesContainer">
+            <h2>Swipe Right or Left on Other Profiles</h2>
+            <div id="profiles"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
